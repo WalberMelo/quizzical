@@ -1,0 +1,102 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/************************/
+/****     HOME    ****/
+/***********************/
+
+.home--description {
+  font-size: large;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.home--btn {
+  background: #586396;
+  padding: 20px 40px;
+  font-weight: 600;
+  line-height: 19px;
+  color: #f5f7fb;
+  margin-top: 17px;
+  cursor: pointer;
+}
+
+/************************/
+/****     ANSWERS    ****/
+/***********************/
+.answers-container {
+  padding-top: 8px;
+  display: flex;
+}
+.answers {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.625);
+  box-shadow: 2px 2px 2px #121212ef;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.answer-btn {
+  background: #586396;
+  padding: 15px 30px;
+  font-weight: 600;
+  line-height: 19px;
+  color: #f5f7fb;
+  margin-top: 17px;
+  cursor: pointer;
+}
+
+/* Play Again */
+.footer {
+  width: inherit;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.score {
+  font-weight: 700;
+  line-height: 15px;
+  color: #293264;
+}
+
+.play-again {
+  background: #586396;
+  padding: 15px 30px;
+  font-weight: 600;
+  line-height: 19px;
+  color: #f5f7fb;
+  margin-top: 17px;
+  cursor: pointer;
+}
