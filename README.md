@@ -1,5 +1,6 @@
 # quizzical
  Test your knowledge with this free quizz answering random questions.
+ APP: https://walbermelo.github.io/quizzical/
  
  ![App Screenshot](src/assets/quizz_home.png?=250x250))
   ![App Screenshot](src/assets/quizz_questions.png?=250x250))
